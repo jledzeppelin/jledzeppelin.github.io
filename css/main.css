@@ -3,14 +3,18 @@ html, body {
     padding: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
-    font-family: 'Lato', sans-serif;
-    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
     color: #2C2F33;
 }
 
 
-/* LINKS */
+/********************* LINKS ***********************/
 
 a, a:active, a:focus {
     color: #6497B1;
@@ -29,20 +33,31 @@ a:active, a:visited, a:hover, a:focus {
     background: #bbd2dd
 }
 
-/* HEADINGS */
 
-h1, h2, h3 {
-    font-weight: 250;
+/********************* HEADINGS **********************/
+
+h1, h3 {
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 2.6rem;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4.5rem;
 }
 
-/* NAVBAR */
+h3 {
+    font-size: 2.1rem;
+}
+
+
+/*********************** NAVBAR **********************/
 
 .navbar {
-    padding: 1rem 1rem;
+    padding: 1.6rem 1.6rem;
 }
 
 .navbar-nav {
@@ -54,16 +69,16 @@ h1 {
     flex-grow: 1;
 }
 
-.navbar-nav .navbar-light .nav-link {
-    font-weight: 250;
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 200;
+    font-size: 2rem;
     letter-spacing: 1.5px;
-    transition: all 0.1s ease;
-    color: #2C2F33;
+    transition: all 0.2s ease;
+    color: #2C2F33
 }
 
-.navbar-nav .navbar-light a.nav-link:hover {
-    font-weight: 400;
-    color: #63b0b0;
+.navbar-light .navbar-nav a.nav-link:hover {
+    color: #63b0b0
 }
 
 .nav-transparent {
@@ -73,7 +88,54 @@ h1 {
 }
 
 
+/****************** MAIN STUFF *****************/
 
+.section {
+    padding: 1% 0;
+    text-align: center;
+}
+
+.section p {
+    font-weight: 400;
+    letter-spacing: 0.06rem;
+}
+
+.section-project {
+    padding: 1% 0;
+    margin: 2% 0;
+}
+
+.about-me {
+    padding-bottom: 1%;
+}
+
+.text-description {
+    padding-top: 2%;
+    text-align: left;
+}
+
+.section-contact {
+    margin-bottom: 0;
+}
+
+/* font awesome icons */
+.section-contact a {
+    font-size: 2.1rem;
+    text-decoration: none;
+    transition: all 0.1s ease;
+    color: #2C2F33;
+}
+
+.section-contact a:hover {
+    color: #63b0b0;
+}
+
+.section-contact i {
+    margin: 5%;
+}
+
+
+/********************** MISC ***********************/
 
 .hori-center {
     margin: 0 auto;
@@ -82,4 +144,18 @@ h1 {
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
+}
+
+.image-project img {
+    width: 90%;
+}
+
+.image-background {
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.image-me {
+    margin-top: 9%;
+    margin-bottom: 9%;
 }
