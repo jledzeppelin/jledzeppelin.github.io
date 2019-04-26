@@ -167,3 +167,16 @@ h3 {
 
 
 /********************* MEDIA ************************/
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 3.6rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.9rem;
+    }
+}
