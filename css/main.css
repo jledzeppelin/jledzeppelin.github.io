@@ -105,7 +105,7 @@ button.navbar-toggler {
 
 .section p {
     font-weight: 400;
-    letter-spacing: 0.06rem;
+    letter-spacing: 0.05rem;
 }
 
 .section-project {
@@ -155,8 +155,12 @@ button.navbar-toggler {
     padding-right: 0;
 }
 
+.image-project {
+    box-shadow: 0 2px 5px 0 rgba(99, 114, 130, .15);
+}
+
 .image-project img {
-    width: 90%;
+    width: 100%;
 }
 
 .image-background {
@@ -169,6 +173,25 @@ button.navbar-toggler {
     margin-bottom: 9%;
 }
 
+
+/********************* PROJECTS *********************/
+.section-content-detail {
+    text-align: left;
+}
+
+.section-content-detail h2 {
+    margin-bottom: 2%;
+}
+
+.image-section {
+    text-align: center;
+    padding: 4% 0;
+}
+
+.image-section h3 {
+    font-weight: 400;
+    margin-bottom: 2%;
+}
 
 /********************* MEDIA ************************/
 
