@@ -155,6 +155,10 @@ button.navbar-toggler {
     padding-right: 0;
 }
 
+.image-project {
+    margin: 0 2%;
+}
+
 .image-project img {
     width: 100%;
 }
